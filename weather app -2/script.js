@@ -12,7 +12,7 @@ const humidityValueTxt = document.querySelector('.humidity-value-txt')
 const windValueTxt = document.querySelector('.wind-value-txt')
 const weathericon = document.querySelector('.weather-icon')
 const currentDateTxt = document.querySelector('.current-date-txt')
-const apikey = 'c591b5b311acfe5463ac7b6caa5760b7'
+const apikey = ' Your-API-Key'
 
 searchBtn.addEventListener('click', () => {
     if (cityInput.value.trim() !='') {
@@ -76,4 +76,5 @@ function showDisplaySection(section) {
 }
 
     
+
  
